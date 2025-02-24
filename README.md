@@ -1,4 +1,4 @@
-# React PDF Starter Toolkit in React.js + TypeScript + Webpack
+# React PDF Starter Toolkit in React.js, TypeScript and Webpack
 
 Welcome to the React PDF Starter Toolkit! This repository provides a comprehensive guide on integrating React PDF with React, TypeScript and Webpack. It showcases how React PDF can be integrated and rendered as part of a React.js project.
 
