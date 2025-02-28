@@ -39,13 +39,13 @@ This repository includes an example project to demonstrate React PDF in action.
 1. **Start the Development Server**: Use the following command to start the development server
 
    ```bash
-   npm run start
+   npm run dev
    # or
-   yarn start
+   yarn dev
    # or
-   pnpm run start
+   pnpm run dev
    # or
-   bun run start
+   bun run dev
    ```
 
 2. **Open in Browser**: Open your browser and navigate to `http://localhost:5173` (or the port specified in your terminal) to see the example project in action
