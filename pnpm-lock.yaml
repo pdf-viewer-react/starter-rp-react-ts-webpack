@@ -6,8 +6,14 @@ settings:
 
 dependencies:
   '@pdf-viewer/react':
-    specifier: ^0.9.0-beta.6
-    version: 0.9.0-beta.8(@types/react-dom@19.0.4)(@types/react@19.0.10)(pdfjs-dist@4.7.76)(react-dom@19.0.0)(react@19.0.0)
+    specifier: latest
+    version: 0.9.0-beta.9(@types/react-dom@19.0.4)(@types/react@19.0.10)(pdfjs-dist@4.7.76)(react-dom@19.0.0)(react@19.0.0)
+  react:
+    specifier: latest
+    version: 19.0.0
+  react-dom:
+    specifier: latest
+    version: 19.0.0(react@19.0.0)
 
 devDependencies:
   '@babel/core':
@@ -40,12 +46,6 @@ devDependencies:
   html-webpack-plugin:
     specifier: 5.6.3
     version: 5.6.3(webpack@5.98.0)
-  react:
-    specifier: 19.0.0
-    version: 19.0.0
-  react-dom:
-    specifier: 19.0.0
-    version: 19.0.0(react@19.0.0)
   style-loader:
     specifier: 4.0.0
     version: 4.0.0(webpack@5.98.0)
@@ -1350,8 +1350,8 @@ packages:
     dev: false
     optional: true
 
-  /@pdf-viewer/react@0.9.0-beta.8(@types/react-dom@19.0.4)(@types/react@19.0.10)(pdfjs-dist@4.7.76)(react-dom@19.0.0)(react@19.0.0):
-    resolution: {integrity: sha512-lIrqUpwx/P9hH2so8GO+uaaLKX1TiJ2bsic5NnbClTg4Z/XktO104oVLh6iqc8BVrnOMiB8l4BuVNMutqs1BiQ==}
+  /@pdf-viewer/react@0.9.0-beta.9(@types/react-dom@19.0.4)(@types/react@19.0.10)(pdfjs-dist@4.7.76)(react-dom@19.0.0)(react@19.0.0):
+    resolution: {integrity: sha512-2Xk0LtBXii7YO9FYs9Q3Wp9QfhEcLbN62tKfp2cDwFedUzRl608IV4usaevJWNvcGVTCH0xf6FWN09cm4pUXLQ==}
     peerDependencies:
       pdfjs-dist: 4.7.76
       react: ^18.2.0
@@ -4021,6 +4021,7 @@ packages:
     dependencies:
       react: 19.0.0
       scheduler: 0.25.0
+    dev: false
 
   /react-virtualized-auto-sizer@1.0.25(react-dom@19.0.0)(react@19.0.0):
     resolution: {integrity: sha512-YHsksEGDfsHbHuaBVDYwJmcktblcHGafz4ZVuYPQYuSHMUGjpwmUCrAOcvMSGMwwk1eFWj1M/1GwYpNPuyhaBg==}
@@ -4048,6 +4049,7 @@ packages:
   /react@19.0.0:
     resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==}
     engines: {node: '>=0.10.0'}
+    dev: false
 
   /readable-stream@2.3.8:
     resolution: {integrity: sha512-8p0AUk4XODgIewSi0l8Epjs+EVnWiK7NoDIEGU0HhE7+ZyY8D1IMY7odu5lRrFXGg71L15KG8QrPmum45RTtdA==}
@@ -4204,6 +4206,7 @@ packages:
 
   /scheduler@0.25.0:
     resolution: {integrity: sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==}
+    dev: false
 
   /schema-utils@3.3.0:
     resolution: {integrity: sha512-pN/yOAvcC+5rQ5nERGuwrjLlYvLTbCibnZ1I7B1LaiAz9BRBlE9GMgE/eqV30P7aJQUf7Ddimy/RsbYO/GrVGg==}
