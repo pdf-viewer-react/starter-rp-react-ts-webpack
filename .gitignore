@@ -1,0 +1,52 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Production builds
+/dist
+/build
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Testing
+/coverage
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Webpack related
+.webpack
+/dll
+
+# IDE and editors
+/.idea
+/.vscode
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Misc
+.cache
+.parcel-cache
+.serverless
+.eslintcache
+.stylelintcache
+
+# TypeScript
+typings/
+
+# React
+.next
+.vercel
